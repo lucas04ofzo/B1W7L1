@@ -18,7 +18,33 @@
         spaceShip.run(function () {
             // code  start
 
-            //
+            spaceShip.moveForward();
+            spaceShip.moveForward();
+            spaceShip.wait();
+            spaceShip.moveBackward();
+            spaceShip.rotateRight();
+            spaceShip.moveForward();
+            spaceShip.moveForward();
+            spaceShip.rotateLeft();
+            for(var i=0;i<3;i++){
+                spaceShip.moveForward();
+            }
+            spaceShip.moveBackward();
+            spaceShip.rotateLeft();
+            for(var i=0;i<3;i++){
+                spaceShip.moveForward();
+            }
+            for(var i=0;i<3;i++){
+                spaceShip.rotateRight();
+                spaceShip.moveForward();
+            }
+            spaceShip.moveForward();
+            spaceShip.wait();
+            spaceShip.moveBackward();
+            spaceShip.rotateRight();
+            for(var i=0;i<5;i++){
+                spaceShip.moveForward();
+            }
 
             // code  einde
         });
